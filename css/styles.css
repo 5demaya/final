@@ -1,0 +1,46 @@
+/**
+ * styles.css
+ *
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: larger;
+}
+
+#top
+{
+    /* surround with whitespace */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#ptable
+{
+   text-align: center; 
+   width: 100%;
+   background: #fff; overflow: hidden;
+   font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.btn
+{
+    font-family: 'Lobster', cursive;
+    background: #f40000;
+    border-color: #f40000;
+}
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+    text-align: center;
+    /* surround with whitespace */
+    margin: 20px;
+    font-family: 'Lobster', cursive;
+}

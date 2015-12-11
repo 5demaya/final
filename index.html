@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700' rel='stylesheet' type='text/css'>
+        
+        <!-- http://getbootstrap.com/ -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+
+        <!-- app's own CSS -->
+        <link href="/css/styles.css" rel="stylesheet"/>
+
+        <!-- http://jquery.com/ -->
+        <script src="/js/jquery-1.11.3.min.js"></script>
+
+        <!-- http://getbootstrap.com/ -->
+        <script src="/js/bootstrap.min.js"></script>
+
+        <!-- app's own JavaScript -->
+        <script src="/js/scripts.js"></script>
+
+        <title>Periodicly</title>
+
+    </head>
+    <body onload = "render()">
+        <div class="container">
+
+            <div id="top">
+                <div>
+                    <a href="/"><img alt="Periodically" src="/img/logo.png"/></a>
+                </div>
+            </div>
+
+            <div id="middle">
+                <div id = "table-display"></div>
+                    <table id = "ptable">
+                    </table>
+                </div>
+                <br>
+                <div class = "container", id = "add-display">
+                </div>
+                <br>
+                <button type = "button" class = "btn btn-primary btn-lg" onclick = "reset()">Reset</button>
+            </div>
+            <div id="bottom">
+                Copyright Maya Rodriguez
+            </div>
+    </body>
+</html>
